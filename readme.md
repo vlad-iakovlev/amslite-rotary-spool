@@ -116,7 +116,8 @@ This model requires two hardware components to function properly:
 
 To make printing easier, 3MF files have been provided for direct use with **Orca** or **Bambu Studio**:
 
-- **all-in-one.3mf**: 3MF file for the ratory spool, all in one plate, include both green and yellow core, you should uncheck one according to yourself.
+- **all-in-one.3mf**: 3MF file for the ratory spool(include secondary claws), all in one plate, include both green and yellow core, you should uncheck one according to yourself.
+- **amslite-rotary-spool-with-secondary-claws.3mf**: 3MF file for the ratory spool(include secondary claws), divide into 3 plates, first one include main claw seats, main claws, base, shell; second one include core(both green and yellow, you should uncheck one according to yourself), shaft, cover, 1.2mm gasket; third one include secondary claw seats and secondary claws
 
 Simply open the 3MF files in **Orca** or **Bambu Studio**, and you'll be ready to print!
 

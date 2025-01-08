@@ -113,7 +113,9 @@
 
 为了简化打印过程，提供了3MF文件，您可以直接在 **Orca** 或 **Bambu Studio** 中使用：
 
-- **all-in-one.3mf**: 包含回转轴的3MF文件，所有部件在一个平台上，包含绿色和黄色核心版本，您可以根据需要选择其中一个。
+- **all-in-one.3mf**: 包含回转轴（带副爪）的3MF文件，所有部件在一个平台上，包含绿色和黄色核心版本，您可以根据需要选择其中一个。
+- - **all-in-one.3mf**: 3MF file for the ratory spool(include secondary claws), all in one plate, include both green and yellow core, you should uncheck one according to yourself.
+- **amslite-rotary-spool-with-secondary-claws.3mf**: 包含回转轴（带副爪）的3MF文件， 部件分布在三盘, 第一盘包括底座，外壳，主爪座，主爪；第二盘包括中轴，轴盖，核心（黄色和绿色，选择其中一个），1.2mm的垫片；第三盘包括副爪爪座，副爪。
 
 只需在 **Orca** 或 **Bambu Studio** 中打开这些3MF文件，即可开始打印！
 
