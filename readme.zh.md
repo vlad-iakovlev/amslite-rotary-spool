@@ -28,6 +28,17 @@
   <img src="./assets/real_shots/IMG_20250107_203029.jpg" width="300" alt="实拍图 - 顶端" />
   <img src="./assets/real_shots/IMG_20250107_203210.jpg" width="300" alt="实拍图 - 底端" />
 
+## 动态展示
+
+### 支持常规尺寸耗材盘中心孔  
+回转轴的原本形态（副爪安装在外壳上），适用于大多数耗材品牌，例如 Bambu、Tinmorry 等。  
+<img src="./assets/gif/origin.gif" width="300" alt="动态展示 - Origin" />
+
+### 支持大尺寸耗材盘中心孔  
+回转轴的组合形态（副爪安装在主爪上），适用于大尺寸中心孔耗材品牌，例如 Jayo 等。  
+<img src="./assets/gif/combined.gif" width="300" alt="动态展示 - Combined" />
+
+
 ## 所需硬件
 
 此模型需要两个硬件组件才能正常工作：

@@ -29,6 +29,17 @@ Here are some shaded view images of the rotary spool with secondary claws:
   <img src="./assets/real_shots/IMG_20250107_203210.jpg" width="300" alt="Real Shot - bottom" />
 
 
+### Demonstration GIF
+
+### Supports Standard Size Spool Center Hole  
+The original form of the Ratory Spool (with secondary claws mounted on the shell), suitable for most filament brands, such as Bambu, Tinmorry, etc.  
+<img src="./assets/gif/origin.gif" width="300" alt="Dynamic Display - Origin" />
+
+### Supports Large Size Spool Center Hole  
+The combined form of the Ratory Spool (with secondary claws mounted on the main claws), suitable for large-center-hole filament brands, such as Jayo, etc.  
+<img src="./assets/gif/combined.gif" width="300" alt="Dynamic Display - Combined" />
+
+
 
 ## Required Hardware
 
