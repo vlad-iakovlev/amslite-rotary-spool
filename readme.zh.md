@@ -1,166 +1,75 @@
-# AMSLite回转轴（带副爪系统）
+# AMSLite 回转轴
 
-这个项目提供了一个可打印的回转轴模型，并包含一个可选的副爪系统，适用于3D打印机。回转轴有助于保持打印过程中的线材张力，减少线材缠绕的可能性，从而降低打印失败的风险。
+本项目提供了可 3D 打印的回转轴模型，包括两种版本：**拓竹风格**和**通用版本**。回转轴有助于保持打印过程中线材张力，减少缠绕，降低打印失败的风险。
 
-## 特点与优势
+## **特点与优势**
 
-1. **易于打印 & 打印优化**: 该设计经过优化，拆件使得便于打印，减少了对支撑结构的需求，以及Z轴方向强度需要强化的部分做了拆件处理, 改变打印方向可以获得更好的强度。
-2. **副爪系统**: 设计包括一个灵活的副爪系统，可根据不同的耗材轴心孔径进行适配，提高稳定性并减少缠线的风险。副爪可以从外壳上拆下并组装到主爪上，使得回转轴能够支持直径更大的料盘，尤其适用于孔径较大的料盘（例如Jayo品牌）。这种模块化系统确保了更高的稳定性，并最大限度地减少了缠线的可能性，适用于不同尺寸的耗材轴心。
-3. **低成本**: 该设计非常具有成本效益，仅需92克耗材，硬件成本不到1元人民币，十分经济实惠。
-4. **可替换部件**: 除了爪部件外，模型的其他部件均可替换原版，提供了灵活的升级和定制选项。
+1. **易于打印 & 打印优化**  
+   设计经过优化，部件拆分减少了对支撑结构的需求，并加强了 Z 轴方向的强度。改变打印方向可进一步优化强度。
 
-## 预览 - 带副爪的回转轴
+2. **低成本**  
+   通用版本仅需 60 克耗材，副爪版本仅需 92 克耗材，硬件成本不到 1 元人民币，非常经济实惠。
 
-这里是一些带辅爪系统回转轴的预览，包括形态的变化的着色图，以及实拍
+3. **料盘适用性广**  
+   - **副爪系统**：设计包括灵活的副爪系统，可以适配不同的耗材轴心孔径，提高稳定性并减少缠绕风险。副爪可以从外壳上拆下并组装到主爪上，支持直径更大的料盘，尤其适用于孔径较大的料盘（例如 Jayo、Sunlu 品牌）。该系统的模块化设计确保了更高的稳定性，减少缠绕的可能性，适用于不同尺寸的耗材轴心。
+   - **通用版本**：设计使螺杆直径尽可能小（比拓竹风格版本适用性更广，螺栓部位直径仅 40.69mm），例如 Sunlu 250g 料盘也能使用，原版 Amslite 无法适配。通用版本提供了更广泛的适用性，并且打印材料更少，速度更快。虽然换料需要拧螺母，但相比弹性爪系统的换料速度，通用版本不会出现塑料件疲劳且料盘锁紧后不会掉落。
 
-- **原本形态以及组合形态**
-  
-  <img src="./assets/shaded-view-rotary-spool-with-secondary(original2combined).png" width="300" alt="原本形态与组合形态的着色图" />
+4. **可替换部件**  
+   除了爪部件，拓竹风格版本的其他所有部件均可作为原版备件使用，适用于替换损坏的部件。
 
-- **分体图**
-  
-  <img src="./assets/shaded-view-rotary-spool-with-secondary-explode-form.png" width="300" alt="回转轴的分体图" />
+## **所需硬件**
 
-- **实拍图**
-  
-  <img src="./assets/real_shots/IMG_20250107_203339.jpg" width="300" alt="实拍图 - 原本形态" />
-  <img src="./assets/real_shots/IMG_20250107_202936.jpg" width="300" alt="实拍图 - 组合形态" />
-  <img src="./assets/real_shots/IMG_20250107_203029.jpg" width="300" alt="实拍图 - 顶端" />
-  <img src="./assets/real_shots/IMG_20250107_203210.jpg" width="300" alt="实拍图 - 底端" />
+回转轴需要两个硬件组件才能正常工作：
 
-## 动态展示
-
-### 支持常规尺寸耗材盘中心孔  
-回转轴的原本形态（副爪安装在外壳上），适用于大多数耗材品牌，例如 Bambu、Tinmorry 等。  
-<img src="./assets/gif/origin.gif" width="300" alt="动态展示 - Origin" />
-
-### 支持大尺寸耗材盘中心孔  
-回转轴的组合形态（副爪安装在主爪上），适用于大尺寸中心孔耗材品牌，例如 Jayo 等。  
-<img src="./assets/gif/combined.gif" width="300" alt="动态展示 - Combined" />
-
-
-## 所需硬件
-
-此模型需要两个硬件组件才能正常工作：
-
-1. **三波形垫片**  
-   - **尺寸**: 27mm x 34mm x 0.4mm  
-   - **高度**: 3.1mm  
-   - <img src="./assets/waveform_gasket.jpg" width="300" alt="三波形垫片" />
-
-2. **扭簧**  
+1. **扭簧**  
    - **线径**: 0.8mm  
    - **外径**: 9mm  
-   - **旋转方向**: 180度左旋/右旋
+   - **圈数**: 5  
+   - **旋转方向**: 180度左旋/右旋  
    - <img src="./assets/torsion_spring.jpg" width="300" alt="扭簧" />
 
-## 文件夹结构
+2. **三波形垫片**  
+   - **用于通用版本**  
+     - **尺寸**: 25mm x 31mm x 0.4mm  
+     - **高度**: 2.9mm  
+     - <img src="./assets/waveform_gasket_m25_31.jpg" width="300" alt="三波形垫片" />
+   - **用于拓竹风格版本**  
+     - **尺寸**: 27mm x 34mm x 0.4mm  
+     - **高度**: 3.1mm  
+     - <img src="./assets/waveform_gasket.jpg" width="300" alt="三波形垫片" />
+
+## **项目文件夹结构**
 
 - **assets/**：包含快照、真实照片和硬件组件的图片。
-  - **shaded-view-rotary-spool-with-secondary(original2combined).png**：展示原始形态和组合形态的图片。
-  - **shaded-view-rotary-spool-with-secondary-combined-form.png**：带副爪的回转轴组合形态的图片。
-  - **shaded-view-rotary-spool-with-secondary-explode-form.png**：带副爪的回转轴分体视图。
-  - **shaded-view-rotary-spool-with-secondary-original-form.png**：带副爪的回转轴原始形态的图片。
-  - **torsion_spring.jpg**：扭簧的照片。
-  - **waveform_gasket.jpg**：三波形垫圈的照片。
-
-- **3mf/**：包含便于打印的3MF文件。
-  - **all-in-one.3mf**：包含绿色和黄色核心版本的3MF文件，选择性打印您偏好的版本。
-  - **amslite-rotary-spool-with-secondary-claws.3mf**：包含副爪的3MF文件。
-  - **test.3mf**：测试3MF文件。
-
+- **3mf/**：包含便于打印的 3MF 文件。
 - **docs/**：使用说明文件。
-  - **user-guide.md**：回转轴模型的组装与使用指南。
+- **stls/**：包含 3D 模型文件。
+  - **xxx.stl**：一体化模型。
+  - **xxx_pieces/**：拆分的模型部件。
 
-- **stls/**：包含3D模型文件。
-  - **base.stl**：回转轴基础部件。
-  - **shaft_cover.stl**：中轴盖。
-  - **shell(thickened).stl**：回转轴的标准外壳。
-  - **shell_with_secondary-claws(thickened).stl**：带有副爪插槽的加厚外壳。
+## **3MF 文件**
 
-  - **claw/**
-    - **basic.stl**：标准回转轴的基本爪（适用于标准外壳）。
-    - **main_claw_with_secondary_slots.stl**：带副爪插槽的主爪（适用于带副爪插槽的外壳）。
-    - **secondary_claw.stl**：副爪模型（适用于带副爪插槽的外壳，可以与主爪组合，适配更大直径的料盘）。
+为了简化打印过程，提供了 3MF 文件，所需模型文件、摆放方向以及支撑设置已在 3MF 文件中预设，经过我的测试，您可以直接在 **Orca** 或 **Bambu Studio** 中使用。
 
-  - **claw_seat/**
-    - **main_claw_seat.stl**：主爪座。
-    - **secondary_claw_seat.stl**：副爪座。
-    - **main_claw_seat_pieces/**：用于组装主爪座的部件。
-      - **claw_seat_base.stl**：爪座底部部件。
-      - **main_claw_seat_base.stl**：主爪座底部部件。
-      - **main_claw_seat_clip.stl**：主爪座卡扣。
+### 拓竹风格
+- **all-in-one.3mf**: 包含回转轴（带副爪）的 3MF 文件，所有部件放置在同一盘中，包含绿色和黄色核心，根据需要选择一个。
+- **amslite-rotary-spool-with-secondary-claws.3mf**: 包含回转轴（带副爪）的 3MF 文件，部件分布在三盘：第一盘包括底座、外壳、主爪座、主爪；第二盘包括中轴、轴盖、核心（绿色和黄色，选择其中一个）、1.2mm 垫片；第三盘包括副爪座、副爪。
+- **others**: 五盘：第一盘包括所有 10 种规格的垫片，第二盘包括扭簧弯曲模板（包括左右两个版本），第三盘是一体化主爪座，第四盘是一体化核心（包括黄色和绿色），第五盘是一体化中轴。
 
-  - **core_parts/**
-    - **green_version.stl**：绿色版本的核心部件（整体模型，无需拆分）。
-    - **yellow_version.stl**：黄色版本的核心部件（整体模型，无需拆分）。
-    - **common_pieces/**：绿色和黄色版本的共享部件。
-      - **torsion_spring_center.stl**：扭簧中心部件。
-      - **torsion_spring_short_end_clip.stl**：扭簧短端卡扣。
-    - **green_version_pieces/**：绿色版本的专用部件。
-      - **base-part.stl**：绿色核心的底部部件。
-      - **core_fixed_clip.stl**：绿色核心的固定卡扣。
-    - **yellow_version_pieces/**：黄色版本的专用部件。
-      - **base-part.stl**：黄色核心的底部部件。
-      - **core_fixed_clip.stl**：黄色核心的固定卡扣。
+### 通用版本
+- **universal-amslite-rotary-spool-holder-with-auto-rewind**: 包含通用回转轴的 3MF 文件，所有需要的模型文件（底座、外壳、中轴、轴盖、核心、1.2mm 垫片、料盘螺母）都在其中。
+- **universal-others**: 四盘：第一盘包括所有 10 种规格的垫片，第二盘包括扭簧弯曲模板（包括左右两个版本），第三盘是一体化核心（包括黄色和绿色），第四盘是一体化中轴。
 
-  - **pressure_gaskets/**
-    - **readme.md**：压力垫圈使用说明。
-    - **thickness-0.2mm.stl** 至 **thickness-2.0mm.stl**：不同厚度的压力垫圈，厚度范围从0.2mm到2.0mm。
+### 其他
+- **torsion-spring-bending-template.3mf**: 包含扭簧弯曲模板，第一盘用于左旋扭簧，第二盘用于右旋扭簧。
+- **amslite-spool-holder-cap-with-number.3mf**: 包含四个带数字的中轴盖，分别为 1、2、3、4，可用于标识料盘。
+- **ams-riser-v2-ams-lite-rotary-holder.3mf**: 适用于 Ams Riser v2 的回转轴固定座。
+- **ams-riser-v2-ams-lite-rotary-holder-withAMS.3mf**: 适用于 Ams Riser v2 的回转轴固定座，逐件打印，不同颜色用于黄色和绿色插槽。
 
-  - **shaft/**
-    - **shaft.stl**：回转轴主轴部件（整体模型，无需拆分）。
-    - **shaft_pieces/**：用于组装主轴的部件。
-      - **bottom_disc_contact_waveform_gasket.stl**：与三波形垫圈接触的底部圆盘。
-      - **round_shaft_part.stl**：圆形主轴部件。
-      - **top_disc_contact_core.stl**：与核心接触的顶部圆盘。
-      - **torsion_spring_long_end_clip.stl**：扭簧长端卡扣。
+## **许可**
 
-  - **torsion_spring_bending_template/**
-    - **torsion_spring_bending_template_left.stl**：左旋扭簧弯折模板。
-    - **torsion_spring_bending_template_right.stl**：右旋扭簧弯折模板。
-
-## 3MF 文件
-
-为了简化打印过程，提供了3MF文件，您可以直接在 **Orca** 或 **Bambu Studio** 中使用：
-
-- **all-in-one.3mf**: 包含回转轴（带副爪）的3MF文件，所有部件在一个平台上，包含绿色和黄色核心版本，您可以根据需要选择其中一个。
-- - **all-in-one.3mf**: 3MF file for the ratory spool(include secondary claws), all in one plate, include both green and yellow core, you should uncheck one according to yourself.
-- **amslite-rotary-spool-with-secondary-claws.3mf**: 包含回转轴（带副爪）的3MF文件， 部件分布在三盘, 第一盘包括底座，外壳，主爪座，主爪；第二盘包括中轴，轴盖，核心（黄色和绿色，选择其中一个），1.2mm的垫片；第三盘包括副爪爪座，副爪。
-
-只需在 **Orca** 或 **Bambu Studio** 中打开这些3MF文件，即可开始打印！
-
-
-## 组装说明
-
-1. **主组件组装**：
-   - 首先打印 **base.stl**、**shaft_cover.stl** 和 **shell_with_secondary-claws(thickened).stl** 文件。这些部件是回转轴的基础。
-   - **推荐**：建议打印 **shell_with_secondary-claws(thickened).stl**，因为它包括了 **shell(thickened).stl** 的所有功能。如果您以后想要添加副爪系统，在此基础上，您只需添加副爪座和副爪。如果不需要副爪系统，只需使用 **shell_with_secondary-claws(thickened).stl** 即可，无需额外部件。
-
-2. **爪部组件组装**：
-   - **basic.stl** 适用于标准回转轴，不能与副爪系统配合使用，因为它没有副爪插槽。
-   - 如果您计划使用副爪支撑更大直径的料盘，主爪应使用 **main_claw_with_secondary_slots.stl**，该主爪具有副爪插槽，可以与 **secondary_claw.stl** 配合使用。
-   - **secondary_claw.stl** 只能与 **main_claw_with_secondary_slots.stl** 或 **secondary_claw_seat.stl** 配合使用，这些部件带有副爪插槽。
-   - **推荐**：建议打印 **main_claw_with_secondary_slots.stl**，因为它包括了 **basic.stl** 的所有功能。如果以后需要副爪系统，只需在此基础上添加副爪，无需重新打印主爪。如果不需要副爪系统，只需使用 **main_claw_with_secondary_slots.stl** 即可，无需额外部件。
-
-3. **爪座组装**：
-   - 主爪座和副爪座分别使用 **main_claw_seat.stl** 和 **secondary_claw_seat.stl** 打印。
-
-4. **核心部件**：
-   - 如果您希望打印一体化的核心部件，请使用 **green_version.stl**（绿色版本）或 **yellow_version.stl**（黄色版本）。
-   - 如果您希望将核心部件分开打印并使用胶水组装，请打印 **green_version_pieces/** 和 **common_pieces/**（绿色版本），或者 **yellow_version_pieces/** 和 **common_pieces/**（黄色版本）。分体打印的优势在于减少支撑材料和优化强度。
-   - **common_pieces/** 文件夹包含两个版本核心部件都需要的共享部件，例如扭簧中心和短端卡扣。
-
-5. **压力垫圈**：
-   - 根据您的组装需求，从 **pressure_gaskets/** 中选择合适的垫圈厚度。
-
-6. **中轴组件**：
-   - 中轴组件有两种打印方式：
-     - **一体化版本**：**shaft.stl** 是完整的中轴模型，作为单个部件打印。
-     - **分体打印版本**：如果您希望将中轴分开打印并用胶水组装，请打印 **shaft_pieces/**
-
-## 许可
 本项目采用 [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)，欢迎修改和分发，但请注明出处。
 
-## 免责声明
-请注意，回转轴和副爪系统设计并不适用于承受极高的负载或作为专业工具使用，仅适用于日常3D打印相关的线材管理。
+## **免责声明**
+
+请注意，回转轴和副爪系统的设计并不适用于承受极高负载或作为专业工具使用，仅适用于日常 3D 打印相关的线材管理。
