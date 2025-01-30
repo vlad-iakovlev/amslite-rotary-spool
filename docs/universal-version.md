@@ -11,10 +11,10 @@ This project provides a printable rotary spool holder model for 3D printers. The
    The screw section has a minimal diameter of 40.69mm, and the nut section can accommodate spools up to 80mm in diameter. The screw length is 75mm, making it compatible with most 200g, 250g, and 1kg filament spools.
 
 3. **Low Cost**  
-   This design is cost-effective, requiring only 60 grams of filament, with hardware costs under 1 RMB, making it very affordable.
+   This design is cost-effective, requiring only 59g of filament, with hardware costs under 1 RMB, making it very affordable.
 
 4. **Fast Print Time**  
-   The print time is approximately 2 hours.
+   The print time is approximately 2.5 hours.
 
 5. **Compatible with Original Fixed Axle**  
    The core part comes in yellow and green versions, and the inner diameter of the shaft is the same as the original. The model height matches the original, so any fixed axle used with the original design will work with this model and can be installed on the AMSLite.

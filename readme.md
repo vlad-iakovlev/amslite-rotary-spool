@@ -8,7 +8,7 @@ This project provides 3D printable rotary spool holder models, including two ver
    The design has been optimized to reduce the need for support structures and enhance Z-axis strength. By changing the print direction, you can achieve better strength.
 
 2. **Low Cost**  
-   The universal version uses only 60g of filament, and the version with secondary claws uses only 92g of filament. The hardware costs less than 1 RMB, making it very cost-effective.
+   The universal version uses only 59g of filament, and the version with secondary claws uses only 92g of filament. The hardware costs less than 1 RMB, making it very cost-effective.
 
 3. **Wide Filament Reel Compatibility**  
    - **Secondary Claw System**: The design includes a flexible secondary claw system that can adapt to different filament reel hole diameters, improving stability and reducing the risk of tangling. The secondary claws can be removed from the shell and assembled onto the main claws, supporting larger reels, especially those with larger hole diameters (e.g., Jayo, Sunlu brands). This modular system ensures higher stability and minimizes the chances of tangling, making it suitable for filament reels with various core diameters.
