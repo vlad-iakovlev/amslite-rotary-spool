@@ -51,12 +51,12 @@
 
 为了简化打印过程，提供了 3MF 文件，所需模型文件、摆放方向以及支撑设置已在 3MF 文件中预设，经过我的测试，您可以直接在 **Orca** 或 **Bambu Studio** 中使用。
 
-### 拓竹风格
+### [拓竹风格](./docs/bambu-style.zh.md)
 - **all-in-one.3mf**: 包含回转轴（带副爪）的 3MF 文件，所有部件放置在同一盘中，包含绿色和黄色核心，根据需要选择一个。
 - **amslite-rotary-spool-with-secondary-claws.3mf**: 包含回转轴（带副爪）的 3MF 文件，部件分布在三盘：第一盘包括底座、外壳、主爪座、主爪；第二盘包括中轴、轴盖、核心（绿色和黄色，选择其中一个）、1.2mm 垫片；第三盘包括副爪座、副爪。
 - **others**: 五盘：第一盘包括所有 10 种规格的垫片，第二盘包括扭簧弯曲模板（包括左右两个版本），第三盘是一体化主爪座，第四盘是一体化核心（包括黄色和绿色），第五盘是一体化中轴。
 
-### 通用版本
+### [通用版本](./docs/universal-versien.zh.md)
 - **universal-amslite-rotary-spool-holder-with-auto-rewind**: 包含通用回转轴的 3MF 文件，所有需要的模型文件（底座、外壳、中轴、轴盖、核心、1.2mm 垫片、料盘螺母）都在其中。
 - **universal-others**: 四盘：第一盘包括所有 10 种规格的垫片，第二盘包括扭簧弯曲模板（包括左右两个版本），第三盘是一体化核心（包括黄色和绿色），第四盘是一体化中轴。
 
@@ -65,6 +65,7 @@
 - **amslite-spool-holder-cap-with-number.3mf**: 包含四个带数字的中轴盖，分别为 1、2、3、4，可用于标识料盘。
 - **ams-riser-v2-ams-lite-rotary-holder.3mf**: 适用于 Ams Riser v2 的回转轴固定座。
 - **ams-riser-v2-ams-lite-rotary-holder-withAMS.3mf**: 适用于 Ams Riser v2 的回转轴固定座，逐件打印，不同颜色用于黄色和绿色插槽。
+- **debug-xxxx.3mf**: 包括一个镂空的盖子以及四个规格的垫片，用于debug。相关文档参照[deubg-guide](./docs/debug-guide.zh.md)
 
 ## **许可**
 

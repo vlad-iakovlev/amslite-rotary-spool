@@ -51,12 +51,12 @@ The rotary spool holder requires two hardware components to function properly:
 
 To simplify the printing process, 3MF files are provided. The necessary model files, orientations, and support settings have been preconfigured in the 3MF files. These files have been tested, and you can directly use them in **Orca** or **Bambu Studio**.
 
-### Bambu Style
+### [Bambu Style](./docs/bambu-style.md)
 - **all-in-one.3mf**: 3MF file for the rotary spool holder (with secondary claws), all parts are placed on one plate, including both green and yellow core options (select one).
 - **amslite-rotary-spool-with-secondary-claws.3mf**: 3MF file for the rotary spool holder (with secondary claws), with parts distributed across three plates. The first plate includes the base, shell, main claw seat, and main claws; the second plate includes the shaft, shaft cover, core (green and yellow, choose one), and a 1.2mm gasket; the third plate includes the secondary claw seat and secondary claws.
 - **others**: Five plates: the first plate includes all 10 sizes of gaskets, the second plate includes the torsion spring bending template (including both left and right versions), the third plate includes an all-in-one main claw seat, the fourth plate includes an all-in-one core (including both yellow and green), and the fifth plate includes an all-in-one shaft.
 
-### Universal Version
+### [Universal Version](./docs/universal-version.md)
 - **universal-amslite-rotary-spool-holder-with-auto-rewind**: 3MF file for the universal rotary spool holder, including all required model files (base, shell, shaft, shaft cover, core, 1.2mm gasket, and reel nut).
 - **universal-others**: Four plates: the first plate includes all 10 sizes of gaskets, the second plate includes the torsion spring bending template (including both left and right versions), the third plate includes an all-in-one core (including both yellow and green), and the fourth plate includes an all-in-one shaft.
 
@@ -65,6 +65,7 @@ To simplify the printing process, 3MF files are provided. The necessary model fi
 - **amslite-spool-holder-cap-with-number.3mf**: Includes four numbered shaft caps (1, 2, 3, 4), useful for labeling filament reels.
 - **ams-riser-v2-ams-lite-rotary-holder.3mf**: A rotary spool holder mount compatible with AMS Riser v2.
 - **ams-riser-v2-ams-lite-rotary-holder-withAMS.3mf**: A rotary spool holder mount compatible with AMS Riser v2, printed separately with different colors for the yellow and green slots.
+- **debug-xxx.3mf**: Includes a hollowed-out cover and four different gasket sizes for debugging. Refer to the [debug-guide](./docs/debug-guide.md) for related documentation.
 
 ## **License**
 
